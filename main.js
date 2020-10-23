@@ -1,5 +1,5 @@
 
-let nama = prompt('Kenalan dulu ya, nama mu siapa ? :)')
+let nama = prompt('Kenalan dulu ya, nama mu siapa ? ㋡')
 let textOpening = document.getElementsByClassName('opening')
 let name = nama.toUpperCase()
 let submit = document.getElementById("btn")

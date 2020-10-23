@@ -16,6 +16,12 @@ img {
     height: 3%;
     top: 10vh;
 }
+#gif {
+    width: 200px;
+    height: 160px;
+    z-index: 10;
+    bottom: 200px;
+}
 
 
 h1 {
@@ -26,6 +32,8 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     font-style: italic;
+    margin-top: 0px;
+    z-index: 5;
 }
 p {
     text-align: center;
@@ -45,7 +53,7 @@ p {
     font-weight: bold;
     color: rgb(21, 204, 204);
     animation-name: anim;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 a:link {
@@ -59,6 +67,8 @@ a:link {
   #text-center {
       text-align: left;
       font-weight: bold; 
+      margin-bottom: 0px;
+      margin-top: 0px;
   }
 
   .intro {
@@ -167,7 +177,8 @@ footer h2 {
 }
 #man {
     width: 200px;
-    height: 300px;
+    height: 100px;
+    align-self: flex-end;
 }
 
 #akhir {
@@ -185,4 +196,8 @@ footer h2 {
     animation-name: asik;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+h2 img {
+    width: 10%;
+    height: 10%;
 }
